@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-image: url(/IMG/INÍCIO/FUNDO01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: rgb(235, 160, 0);
+}
+
+p {
+    font-weight: 600;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-img {
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.nav-name {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.nav-item {
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: rgb(235, 160, 0);
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+.slogan {
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 2.5rem;
+}
+
+.carrossel {
+    min-height: 60vh;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
+
+.fade-out {
+    opacity: 0;
+  }
+
+.principal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulo {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.descSite {
+    width: 85%;
+    padding-left: 60px;
+}
+
+.planeta-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 18rem;
+    padding-top: 5rem;
+}
+
+.planeta {
+    font-family: "Audiowide", sans-serif;
+    font-size: 90px;
+}
+
+.descPlaneta {
+    font-size: 20px;
+    max-width: 50%;
+}
+
+
+.detalhes {
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+.prox {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    padding-right:15rem;
+    padding-top: 0px;
+}
+
+
+.proxBotao {
+    font-size: 20px;     
+    font-weight: 600;
+    padding: 12px 35px; 
+    transition: 0.2s ease-in-out;
+}
+
+.detalhes:hover , .proxBotao:hover {
+    transform: scale(1.1); 
+} 
+
+.curiosidades-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 60%;
+    gap: 60px;
+    margin-left: 18rem;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-bottom: 3rem;
+}
+
+.curiosidade1 , .curiosidade2 , .curiosidade3 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .footer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+  }
